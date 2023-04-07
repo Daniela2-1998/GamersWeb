@@ -18,3 +18,25 @@
     -webkit-backdrop-filter: blur(4.2px);
     border: 1px solid rgba(54, 80, 139, 1);
 }
+
+
+.presentacion{
+    width: 90%;
+    height: 20%;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 20px;
+    color: white;
+    background-color: rgb(73, 113, 187);
+    font-size: 20px;
+    
+    border-radius: 48px;
+    background: linear-gradient(145deg, #4266a8, #4e79c8);
+    box-shadow: 36px 36px 60px #2d4674,
+            -36px -36px 60px #659cff;
+}
+
+.separacion_imagenes{
+    padding: 20px;
+}
