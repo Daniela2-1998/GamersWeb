@@ -21,22 +21,43 @@
 
 
 .presentacion{
-    width: 90%;
+    width: 97%;
     height: 20%;
-    margin-left: 5%;
+    margin-left: 1%;
     margin-top: 2%;
     margin-bottom: 2%;
     padding: 20px;
     color: white;
     background-color: rgb(73, 113, 187);
     font-size: 20px;
-    
+}
+
+.rec_express{
     border-radius: 48px;
     background: linear-gradient(145deg, #4266a8, #4e79c8);
     box-shadow: 36px 36px 60px #2d4674,
             -36px -36px 60px #659cff;
 }
 
+.titulo_presentacion{
+    padding: 5px;
+    margin-left: 15px;
+}
+
 .separacion_imagenes{
     padding: 20px;
+}
+
+
+.proximos_estrenos {
+    margin-top: 5%;
+    border-radius: 50px;
+    background: #4971bb;
+    box-shadow: inset 20px 20px 0px #3e609f,
+        inset -20px -20px 0px #5482d7;
+}
+
+.titulo_estrenos{
+    padding: 7px;
+    margin-left: 20px;
 }
