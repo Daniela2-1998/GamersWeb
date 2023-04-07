@@ -1,11 +1,11 @@
 .intro{
     color: white;
     background-color: rgb(73, 113, 187);
-    width: 32%;
+    width: 45%;
     height: 50%;
     padding: 20px;
-    margin-left: 34%;
-    text-align: center;
+    margin-left: 28%;
+    text-align: justify;
     font-size: 20px;
 }
 
@@ -46,6 +46,19 @@
 
 .separacion_imagenes{
     padding: 20px;
+}
+
+
+.info{
+    color: white;
+    background-color: rgb(73, 113, 187);
+    width: 80%;
+    height: 50%;
+    padding: 20px;
+    margin-left: 10%;
+    margin-top: 5%;
+    text-align:justify;
+    font-size: 20px;
 }
 
 
