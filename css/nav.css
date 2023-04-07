@@ -1,0 +1,36 @@
+ /* Basic styling */ * 
+ { 
+    box-sizing: border-box; padding: 0; margin: 0; 
+} 
+
+header{
+    height: 50px;
+    width: 100%;
+}
+
+ul { 
+    list-style-type: none; 
+} 
+
+.navegador{
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px; 
+    background-color: darkslateblue;
+    border: 5px rgba(71, 61, 139, 0.515);
+}
+
+.espacios{
+    height: 20px;
+    width: 30px;
+}
+
+.letras_nav{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
