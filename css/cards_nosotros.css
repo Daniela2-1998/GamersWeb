@@ -1,0 +1,70 @@
+.texto_nosotros {
+    color: white;
+    background-color: rgb(73, 113, 187);
+    width: 90%;
+    height: 50%;
+    padding: 2%;
+    margin-left: 5%;
+    margin-top: 2%;
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+.imagenes_codigo {
+    width: 60%;
+    height: 100%;
+    margin-left: 20%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    padding: 2%;
+    color: white;
+    vertical-align: middle;
+    background-color: rgb(73, 113, 187);
+    font-size: 20px;
+
+    border-radius: 50px;
+    background: #365ba1;
+    box-shadow: inset 20px 20px 60px #2e4d89,
+        inset -20px -20px 60px #3e69b9;
+}
+
+.imagen_prog {
+    float: left;
+    margin-right: 2%;
+    width: 40%;
+}
+
+.texto_prog {
+    margin-left: 2%;
+}
+
+.slide-bottom {
+    -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@-webkit-keyframes slide-bottom {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(100px);
+        transform: translateY(100px);
+    }
+}
+
+@keyframes slide-bottom {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(100px);
+        transform: translateY(100px);
+    }
+}

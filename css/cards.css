@@ -61,7 +61,6 @@
     font-size: 20px;
 }
 
-
 .proximos_estrenos {
     margin-top: 5%;
     border-radius: 50px;
@@ -73,4 +72,8 @@
 .titulo_estrenos{
     padding: 7px;
     margin-left: 20px;
+}
+
+.parrafo_nota{
+    margin-bottom: 2%;
 }
