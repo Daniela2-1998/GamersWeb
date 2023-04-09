@@ -1,0 +1,12 @@
+.logo_ubi{
+    padding: 2%;
+    margin-left: 17%;
+}
+
+.recuadro_logo{
+    background-color: darkslateblue;
+    border-color: rgba(71, 61, 139, 0.914);
+    border-radius: 2%;
+    margin-left: 9%;
+    width: 82%;
+}
