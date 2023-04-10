@@ -1,0 +1,45 @@
+.descripcion_u4{
+    width: 100%;
+    height: 1200px;
+    margin-top: 5%;
+    background-image: url("/media/u4/u4bros.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: brightness(0.7);
+    padding: 2%;
+}
+
+
+.texto_u4{
+    color: rgb(245, 245, 245);
+    margin-left: 60%;
+    margin-top: 16%;
+    text-align: left;
+    font-size: x-large;
+}
+
+.titulo_descr{
+    font-size: xx-large;
+    color: whitesmoke;
+}
+
+.critica{
+    width: 100%;
+    height: 1200px;
+    margin-top: 2%;
+    padding: 2%;
+    background-image: url("/media/u4/critica.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.datos_extra{
+    width: 100%;
+    height: 400px;
+    margin-top: 2%;
+    padding: 2%;
+    background-image: url("/media/u4/fondou4.jpg");
+    background-repeat: no-repeat;
+    color: white;
+
+}
