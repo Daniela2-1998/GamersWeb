@@ -15,7 +15,7 @@ ul {
 .navegador{
     height: 100%;
     width: 100%;
-    padding: 10px 20px; 
+    padding: 1% 2%; 
     background-color: darkslateblue;
     border: 5px rgba(71, 61, 139, 0.515);
 }
@@ -29,7 +29,7 @@ ul {
     color: white;
     text-decoration: none;
     font-size: 18px;
-    padding: 20px;
+    padding: 2%;
     position: relative;
     text-align: center;
 }
