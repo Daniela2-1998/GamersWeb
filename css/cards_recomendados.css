@@ -5,3 +5,15 @@
 .recomendados_cuadro{
     background-color: rgb(71, 61, 139);
 }
+
+@media screen and (max-width: 720px) {
+    .recomendados_contorno{
+        padding: 2%;
+    }
+
+    .recomendados_cuadro{
+        background-color: rgb(71, 61, 139);
+        width: 80%;
+        margin-left: 7%;
+    }
+}

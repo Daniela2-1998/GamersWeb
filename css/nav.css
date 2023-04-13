@@ -34,3 +34,13 @@ ul {
     text-align: center;
 }
 
+@media screen and (max-width: 720px) {
+    .navegador {
+            height: 100%;
+            width: 100%;
+            padding: 2% 0.5%;
+            background-color: darkslateblue;
+            border: 5px rgba(71, 61, 139, 0.515);
+        }
+
+}

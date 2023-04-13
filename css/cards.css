@@ -1,4 +1,4 @@
-.intro{
+.intro {
     color: white;
     background-color: rgb(73, 113, 187);
     width: 45%;
@@ -20,7 +20,7 @@
 }
 
 
-.presentacion{
+.presentacion {
     width: 97%;
     height: 20%;
     margin-left: 1%;
@@ -32,24 +32,24 @@
     font-size: 20px;
 }
 
-.rec_express{
+.rec_express {
     border-radius: 48px;
     background: linear-gradient(145deg, #4266a8, #4e79c8);
     box-shadow: 36px 36px 60px #2d4674,
-            -36px -36px 60px #659cff;
+        -36px -36px 60px #659cff;
 }
 
-.titulo_presentacion{
+.titulo_presentacion {
     padding: 5px;
     margin-left: 15px;
 }
 
-.separacion_imagenes{
+.separacion_imagenes {
     padding: 20px;
 }
 
 
-.info{
+.info {
     color: white;
     background-color: rgb(73, 113, 187);
     width: 80%;
@@ -57,7 +57,7 @@
     padding: 20px;
     margin-left: 10%;
     margin-top: 5%;
-    text-align:justify;
+    text-align: justify;
     font-size: 20px;
 }
 
@@ -69,17 +69,54 @@
         inset -20px -20px 0px #5482d7;
 }
 
-.titulo_estrenos{
+.titulo_estrenos {
     padding: 7px;
     margin-left: 20px;
 }
 
-.parrafo_nota{
+.parrafo_nota {
     margin-bottom: 2%;
 }
 
-.cuadro_inicio{
+.cuadro_inicio {
     background-color: rgb(71, 61, 139);
     border-radius: 9%;
     border-bottom: 0;
+}
+
+@media screen and (max-width: 720px) {
+    .intro {
+        width: 85%;
+        height: 50%;
+        padding: 20px;
+        margin-left: 8%;
+        text-align: justify;
+        font-size: 20px;
+    }
+
+
+    .presentacion {
+        width: 70%;
+        height: 20%;
+        margin-left: 15%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding: 20px;
+        color: white;
+        background-color: rgb(73, 113, 187);
+        font-size: 20px;
+    }
+
+    .separacion_imagenes {
+        padding: 5%;
+    }
+
+    .cuadro_inicio {
+        margin-left: 4%;
+        background-color: rgb(71, 61, 139);
+        border-radius: 9%;
+        width: 90%;
+        border-bottom: 0;
+    }
+
 }
