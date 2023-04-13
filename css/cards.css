@@ -77,3 +77,9 @@
 .parrafo_nota{
     margin-bottom: 2%;
 }
+
+.cuadro_inicio{
+    background-color: rgb(71, 61, 139);
+    border-radius: 9%;
+    border-bottom: 0;
+}

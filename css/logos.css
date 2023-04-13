@@ -1,6 +1,7 @@
 .logo_ubi{
     padding: 2%;
     margin-left: 17%;
+    background-image: -webkit-image-set(screen);
 }
 
 .recuadro_logo{
@@ -9,4 +10,31 @@
     border-radius: 2%;
     margin-left: 9%;
     width: 82%;
+}
+
+.logo_empresa{
+    width: 40%;
+    height: 200px;
+    margin-left: 30%;
+    margin-top: 5%;
+    padding: 2%;
+    background-image: url("/media/u4/naughtylogo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+
+
+@media screen and (max-width: 720px) {
+    .logo_ubi{
+        margin-left: 0%;
+        padding: 2%;
+    }
+
+    .recuadro_logo{
+        width: 130%;
+        margin-left: 4%;
+    }
+
+
 }
